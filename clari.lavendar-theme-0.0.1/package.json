@@ -1,0 +1,21 @@
+{
+  "name": "lavendar-theme",
+  "displayName": "Lavendar-Theme",
+  "description": "Gives VSCode a Lavendar accent to the dark mode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lavendar Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ]
+  }
+}
